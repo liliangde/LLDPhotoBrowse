@@ -8,24 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		185649D31F9DEAB40013FF0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185649D21F9DEAB40013FF0D /* AppDelegate.m */; };
-		185649D61F9DEAB40013FF0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185649D51F9DEAB40013FF0D /* ViewController.m */; };
-		185649D91F9DEAB40013FF0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185649D71F9DEAB40013FF0D /* Main.storyboard */; };
 		185649DB1F9DEAB40013FF0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185649DA1F9DEAB40013FF0D /* Assets.xcassets */; };
 		185649DE1F9DEAB40013FF0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185649DC1F9DEAB40013FF0D /* LaunchScreen.storyboard */; };
 		185649E11F9DEAB40013FF0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185649E01F9DEAB40013FF0D /* main.m */; };
+		185649F31F9DEAF40013FF0D /* LLDPhotoBrowseViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 185649EB1F9DEAF40013FF0D /* LLDPhotoBrowseViewCell.m */; };
+		185649F41F9DEAF40013FF0D /* LLDPhotoBrowseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 185649ED1F9DEAF40013FF0D /* LLDPhotoBrowseData.m */; };
+		185649F51F9DEAF40013FF0D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185649EF1F9DEAF40013FF0D /* TableViewController.m */; };
+		185649F61F9DEAF40013FF0D /* LLDCustomTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 185649F01F9DEAF40013FF0D /* LLDCustomTransitionAnimation.m */; };
+		185649F71F9DEAF40013FF0D /* LLDCustomPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 185649F11F9DEAF40013FF0D /* LLDCustomPercentDrivenInteractiveTransition.m */; };
+		185649F81F9DEAF40013FF0D /* LLDPhotoBrowseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185649F21F9DEAF40013FF0D /* LLDPhotoBrowseViewController.m */; };
+		18564A011F9DF9710013FF0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185649F91F9DEB250013FF0D /* Main.storyboard */; };
+		538EF168C6AF24EB28BF85C4 /* Pods_LLDPhoteBrowse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783B7ABF75624F514CA5B13E /* Pods_LLDPhoteBrowse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		185649CE1F9DEAB40013FF0D /* LLDPhoteBrowse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLDPhoteBrowse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		185649D11F9DEAB40013FF0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		185649D21F9DEAB40013FF0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		185649D41F9DEAB40013FF0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		185649D51F9DEAB40013FF0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		185649D81F9DEAB40013FF0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		185649DA1F9DEAB40013FF0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185649DD1F9DEAB40013FF0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		185649DF1F9DEAB40013FF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185649E01F9DEAB40013FF0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		185649E71F9DEAF30013FF0D /* LLDPhotoBrowseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDPhotoBrowseViewController.h; sourceTree = "<group>"; };
+		185649E81F9DEAF30013FF0D /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		185649E91F9DEAF30013FF0D /* LLDCustomPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDCustomPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		185649EA1F9DEAF30013FF0D /* LLDCustomTransitionAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDCustomTransitionAnimation.h; sourceTree = "<group>"; };
+		185649EB1F9DEAF40013FF0D /* LLDPhotoBrowseViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLDPhotoBrowseViewCell.m; sourceTree = "<group>"; };
+		185649EC1F9DEAF40013FF0D /* LLDPhotoBrowseData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDPhotoBrowseData.h; sourceTree = "<group>"; };
+		185649ED1F9DEAF40013FF0D /* LLDPhotoBrowseData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLDPhotoBrowseData.m; sourceTree = "<group>"; };
+		185649EE1F9DEAF40013FF0D /* LLDPhotoBrowseViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDPhotoBrowseViewCell.h; sourceTree = "<group>"; };
+		185649EF1F9DEAF40013FF0D /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		185649F01F9DEAF40013FF0D /* LLDCustomTransitionAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLDCustomTransitionAnimation.m; sourceTree = "<group>"; };
+		185649F11F9DEAF40013FF0D /* LLDCustomPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLDCustomPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		185649F21F9DEAF40013FF0D /* LLDPhotoBrowseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLDPhotoBrowseViewController.m; sourceTree = "<group>"; };
+		185649F91F9DEB250013FF0D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		185649FD1F9DEFC70013FF0D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		32AE82BF6FC6DE2C33978AB1 /* Pods-LLDPhoteBrowse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLDPhoteBrowse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLDPhoteBrowse/Pods-LLDPhoteBrowse.debug.xcconfig"; sourceTree = "<group>"; };
+		783B7ABF75624F514CA5B13E /* Pods_LLDPhoteBrowse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLDPhoteBrowse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F1893CAD8994E6A0911A95 /* Pods-LLDPhoteBrowse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLDPhoteBrowse.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLDPhoteBrowse/Pods-LLDPhoteBrowse.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				538EF168C6AF24EB28BF85C4 /* Pods_LLDPhoteBrowse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +65,8 @@
 			children = (
 				185649D01F9DEAB40013FF0D /* LLDPhoteBrowse */,
 				185649CF1F9DEAB40013FF0D /* Products */,
+				6EB8A4D5A95882E46F3544E8 /* Pods */,
+				2D8C4F59E75A71EDE868A5D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +83,43 @@
 			children = (
 				185649D11F9DEAB40013FF0D /* AppDelegate.h */,
 				185649D21F9DEAB40013FF0D /* AppDelegate.m */,
-				185649D41F9DEAB40013FF0D /* ViewController.h */,
-				185649D51F9DEAB40013FF0D /* ViewController.m */,
-				185649D71F9DEAB40013FF0D /* Main.storyboard */,
+				185649E91F9DEAF30013FF0D /* LLDCustomPercentDrivenInteractiveTransition.h */,
+				185649F11F9DEAF40013FF0D /* LLDCustomPercentDrivenInteractiveTransition.m */,
+				185649EA1F9DEAF30013FF0D /* LLDCustomTransitionAnimation.h */,
+				185649F01F9DEAF40013FF0D /* LLDCustomTransitionAnimation.m */,
+				185649EC1F9DEAF40013FF0D /* LLDPhotoBrowseData.h */,
+				185649ED1F9DEAF40013FF0D /* LLDPhotoBrowseData.m */,
+				185649EE1F9DEAF40013FF0D /* LLDPhotoBrowseViewCell.h */,
+				185649EB1F9DEAF40013FF0D /* LLDPhotoBrowseViewCell.m */,
+				185649E71F9DEAF30013FF0D /* LLDPhotoBrowseViewController.h */,
+				185649F21F9DEAF40013FF0D /* LLDPhotoBrowseViewController.m */,
+				185649E81F9DEAF30013FF0D /* TableViewController.h */,
+				185649EF1F9DEAF40013FF0D /* TableViewController.m */,
+				185649F91F9DEB250013FF0D /* Main.storyboard */,
 				185649DA1F9DEAB40013FF0D /* Assets.xcassets */,
 				185649DC1F9DEAB40013FF0D /* LaunchScreen.storyboard */,
 				185649DF1F9DEAB40013FF0D /* Info.plist */,
 				185649E01F9DEAB40013FF0D /* main.m */,
+				185649FD1F9DEFC70013FF0D /* PrefixHeader.pch */,
 			);
 			path = LLDPhoteBrowse;
+			sourceTree = "<group>";
+		};
+		2D8C4F59E75A71EDE868A5D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				783B7ABF75624F514CA5B13E /* Pods_LLDPhoteBrowse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EB8A4D5A95882E46F3544E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32AE82BF6FC6DE2C33978AB1 /* Pods-LLDPhoteBrowse.debug.xcconfig */,
+				84F1893CAD8994E6A0911A95 /* Pods-LLDPhoteBrowse.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +129,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 185649E41F9DEAB40013FF0D /* Build configuration list for PBXNativeTarget "LLDPhoteBrowse" */;
 			buildPhases = (
+				D70C2E1917D630CC42003472 /* [CP] Check Pods Manifest.lock */,
 				185649CA1F9DEAB40013FF0D /* Sources */,
 				185649CB1F9DEAB40013FF0D /* Frameworks */,
 				185649CC1F9DEAB40013FF0D /* Resources */,
+				D3562431FB529C5D19A07B3A /* [CP] Embed Pods Frameworks */,
+				E366B9DEB542C17A943C79F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,21 +183,92 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18564A011F9DF9710013FF0D /* Main.storyboard in Resources */,
 				185649DE1F9DEAB40013FF0D /* LaunchScreen.storyboard in Resources */,
 				185649DB1F9DEAB40013FF0D /* Assets.xcassets in Resources */,
-				185649D91F9DEAB40013FF0D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D3562431FB529C5D19A07B3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LLDPhoteBrowse/Pods-LLDPhoteBrowse-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+				"${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLDPhoteBrowse/Pods-LLDPhoteBrowse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D70C2E1917D630CC42003472 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LLDPhoteBrowse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E366B9DEB542C17A943C79F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLDPhoteBrowse/Pods-LLDPhoteBrowse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		185649CA1F9DEAB40013FF0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				185649D61F9DEAB40013FF0D /* ViewController.m in Sources */,
+				185649F81F9DEAF40013FF0D /* LLDPhotoBrowseViewController.m in Sources */,
 				185649E11F9DEAB40013FF0D /* main.m in Sources */,
+				185649F71F9DEAF40013FF0D /* LLDCustomPercentDrivenInteractiveTransition.m in Sources */,
+				185649F41F9DEAF40013FF0D /* LLDPhotoBrowseData.m in Sources */,
+				185649F31F9DEAF40013FF0D /* LLDPhotoBrowseViewCell.m in Sources */,
+				185649F61F9DEAF40013FF0D /* LLDCustomTransitionAnimation.m in Sources */,
+				185649F51F9DEAF40013FF0D /* TableViewController.m in Sources */,
 				185649D31F9DEAB40013FF0D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +276,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		185649D71F9DEAB40013FF0D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				185649D81F9DEAB40013FF0D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		185649DC1F9DEAB40013FF0D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -208,6 +325,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -261,6 +379,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -276,10 +395,12 @@
 		};
 		185649E51F9DEAB40013FF0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32AE82BF6FC6DE2C33978AB1 /* Pods-LLDPhoteBrowse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6QV7266CQK;
+				GCC_PREFIX_HEADER = LLDPhoteBrowse/PrefixHeader.pch;
 				INFOPLIST_FILE = LLDPhoteBrowse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.livestar.www.LLDPhoteBrowse;
@@ -290,10 +411,12 @@
 		};
 		185649E61F9DEAB40013FF0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F1893CAD8994E6A0911A95 /* Pods-LLDPhoteBrowse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6QV7266CQK;
+				GCC_PREFIX_HEADER = LLDPhoteBrowse/PrefixHeader.pch;
 				INFOPLIST_FILE = LLDPhoteBrowse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.livestar.www.LLDPhoteBrowse;

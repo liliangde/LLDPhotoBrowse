@@ -1,0 +1,6 @@
+framework module Pods_LLDPhoteBrowse {
+  umbrella header "Pods-LLDPhoteBrowse-umbrella.h"
+
+  export *
+  module * { export * }
+}
