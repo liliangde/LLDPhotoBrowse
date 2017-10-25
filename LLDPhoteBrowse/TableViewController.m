@@ -46,8 +46,12 @@
     }
     cell.textLabel.text = @"test";
     NSURL *imageUrl = [NSURL URLWithString:self.images[indexPath.row]];
-    [cell.imageView yy_setImageWithURL:imageUrl placeholder:nil];
-    
+    [[YYWebImageManager sharedManager] requestImageWithURL:imageUrl options:0 progress:nil transform:nil completion:^(UIImage * _Nullable image, NSURL * _Nonnull url, YYWebImageFromType from, YYWebImageStage stage, NSError * _Nullable error) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            cell.imageView.image = image;
+            [cell setNeedsLayout];
+        });
+    }];
     return cell;
 }
 
