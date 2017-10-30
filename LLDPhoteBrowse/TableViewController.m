@@ -9,6 +9,7 @@
 #import "TableViewController.h"
 #import "LLDPhotoBrowseViewController.h"
 #import "LLDPhotoBrowseData.h"
+#import "LLDCollectionViewFlowLayout.h"
 
 @interface TableViewController ()
 @property (strong, nonatomic) NSArray *images;
@@ -57,7 +58,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
+    LLDCollectionViewFlowLayout *layout = [[LLDCollectionViewFlowLayout alloc] init];
     LLDPhotoBrowseViewController *photoBrowseViewController = [[LLDPhotoBrowseViewController alloc] initWithCollectionViewLayout:layout];
     
     for (int i = 0; i < self.images.count; i++) {

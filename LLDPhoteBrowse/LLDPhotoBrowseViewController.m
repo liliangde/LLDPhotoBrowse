@@ -9,13 +9,11 @@
 #import "LLDPhotoBrowseViewController.h"
 #import "LLDCustomTransitionAnimation.h"
 #import "LLDPhotoBrowseViewCell.h"
-#import "LLDCustomPercentDrivenInteractiveTransition.h"
+#import "LLDCollectionViewFlowLayout.h"
 
 #define itemMinimumSpacing 10
 
 @interface LLDPhotoBrowseViewController () <UIViewControllerTransitioningDelegate,LLDPhotoBrowseViewCellDelegate>
-
-@property (strong, nonatomic) LLDCustomPercentDrivenInteractiveTransition *percentDrivenInteractiveTransition;
 
 @end
 
@@ -28,39 +26,17 @@ static NSString * const reuseIdentifier = @"Cell";
     
     self.transitioningDelegate = self;
     
-    UICollectionViewFlowLayout *layout = (UICollectionViewFlowLayout *)self.collectionViewLayout;
+    LLDCollectionViewFlowLayout *layout = (LLDCollectionViewFlowLayout *)self.collectionViewLayout;
     layout.itemSize = CGSizeMake(kScreenWidth, kScreenHeight);
     layout.minimumLineSpacing = itemMinimumSpacing;
     layout.minimumInteritemSpacing = 0;
     layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     
-    self.collectionView.pagingEnabled = YES;
-    
     [self.collectionView registerClass:[LLDPhotoBrowseViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
     
     [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForRow:self.currentBrowseImageIndex inSection:0] atScrollPosition:UICollectionViewScrollPositionNone animated:NO];
-    
-    self.percentDrivenInteractiveTransition = [[LLDCustomPercentDrivenInteractiveTransition alloc] init];
-    
-    UIPanGestureRecognizer *panGestureRecognizer = [[UIPanGestureRecognizer alloc] initWithActionBlock:^(UIPanGestureRecognizer * _Nonnull sender) {
-        if (sender.state == UIGestureRecognizerStateBegan) {
-            [self dismissViewControllerAnimated:YES completion:nil];
-        }
-        if (sender.state == UIGestureRecognizerStateChanged) {
-            CGPoint location = [sender locationInView:self.view];
-            [self.percentDrivenInteractiveTransition updateInteractiveTransition:(location.y / self.view.height)];
-        }
-        if (sender.state == UIGestureRecognizerStateEnded) {
-            [self.percentDrivenInteractiveTransition finishInteractiveTransition];
-        }
-    }];
-    [self.view addGestureRecognizer:panGestureRecognizer];
 }
 
-- (void)viewDidAppear:(BOOL)animated{
-    [super viewDidAppear:animated];
-    self.collectionView.width = kScreenWidth + itemMinimumSpacing;
-}
 
 #pragma mark <UICollectionViewDataSource>
 
@@ -73,7 +49,6 @@ static NSString * const reuseIdentifier = @"Cell";
     LLDPhotoBrowseData *item = self.items[indexPath.row];
     cell.delegate = self;
     cell.data = item;
-    NSLog(@"%ld",indexPath.row);
     return cell;
 }
 
@@ -92,13 +67,12 @@ static NSString * const reuseIdentifier = @"Cell";
 }
 
 #pragma mark - 交互式转场动画的代理
-- (nullable id <UIViewControllerInteractiveTransitioning>)interactionControllerForPresentation:(id <UIViewControllerAnimatedTransitioning>)animator{
-    return nil;
-}
-
-- (nullable id <UIViewControllerInteractiveTransitioning>)interactionControllerForDismissal:(id <UIViewControllerAnimatedTransitioning>)animator{
-//    return self.percentDrivenInteractiveTransition;
-    return nil;
-}
+//- (nullable id <UIViewControllerInteractiveTransitioning>)interactionControllerForPresentation:(id <UIViewControllerAnimatedTransitioning>)animator{
+//    return nil;
+//}
+//
+//- (nullable id <UIViewControllerInteractiveTransitioning>)interactionControllerForDismissal:(id <UIViewControllerAnimatedTransitioning>)animator{
+//    return nil;
+//}
 
 @end

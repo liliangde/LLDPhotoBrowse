@@ -15,9 +15,9 @@
 		185649F41F9DEAF40013FF0D /* LLDPhotoBrowseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 185649ED1F9DEAF40013FF0D /* LLDPhotoBrowseData.m */; };
 		185649F51F9DEAF40013FF0D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185649EF1F9DEAF40013FF0D /* TableViewController.m */; };
 		185649F61F9DEAF40013FF0D /* LLDCustomTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 185649F01F9DEAF40013FF0D /* LLDCustomTransitionAnimation.m */; };
-		185649F71F9DEAF40013FF0D /* LLDCustomPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 185649F11F9DEAF40013FF0D /* LLDCustomPercentDrivenInteractiveTransition.m */; };
 		185649F81F9DEAF40013FF0D /* LLDPhotoBrowseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185649F21F9DEAF40013FF0D /* LLDPhotoBrowseViewController.m */; };
 		18564A011F9DF9710013FF0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185649F91F9DEB250013FF0D /* Main.storyboard */; };
+		18FEDA4F1FA2C9A900ED7C90 /* LLDCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FEDA4E1FA2C9A900ED7C90 /* LLDCollectionViewFlowLayout.m */; };
 		538EF168C6AF24EB28BF85C4 /* Pods_LLDPhoteBrowse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783B7ABF75624F514CA5B13E /* Pods_LLDPhoteBrowse.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +31,6 @@
 		185649E01F9DEAB40013FF0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		185649E71F9DEAF30013FF0D /* LLDPhotoBrowseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDPhotoBrowseViewController.h; sourceTree = "<group>"; };
 		185649E81F9DEAF30013FF0D /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		185649E91F9DEAF30013FF0D /* LLDCustomPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDCustomPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
 		185649EA1F9DEAF30013FF0D /* LLDCustomTransitionAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDCustomTransitionAnimation.h; sourceTree = "<group>"; };
 		185649EB1F9DEAF40013FF0D /* LLDPhotoBrowseViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLDPhotoBrowseViewCell.m; sourceTree = "<group>"; };
 		185649EC1F9DEAF40013FF0D /* LLDPhotoBrowseData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDPhotoBrowseData.h; sourceTree = "<group>"; };
@@ -39,10 +38,11 @@
 		185649EE1F9DEAF40013FF0D /* LLDPhotoBrowseViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDPhotoBrowseViewCell.h; sourceTree = "<group>"; };
 		185649EF1F9DEAF40013FF0D /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		185649F01F9DEAF40013FF0D /* LLDCustomTransitionAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLDCustomTransitionAnimation.m; sourceTree = "<group>"; };
-		185649F11F9DEAF40013FF0D /* LLDCustomPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLDCustomPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
 		185649F21F9DEAF40013FF0D /* LLDPhotoBrowseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLDPhotoBrowseViewController.m; sourceTree = "<group>"; };
 		185649F91F9DEB250013FF0D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		185649FD1F9DEFC70013FF0D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18FEDA4D1FA2C9A900ED7C90 /* LLDCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		18FEDA4E1FA2C9A900ED7C90 /* LLDCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLDCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		32AE82BF6FC6DE2C33978AB1 /* Pods-LLDPhoteBrowse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLDPhoteBrowse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLDPhoteBrowse/Pods-LLDPhoteBrowse.debug.xcconfig"; sourceTree = "<group>"; };
 		783B7ABF75624F514CA5B13E /* Pods_LLDPhoteBrowse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLDPhoteBrowse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F1893CAD8994E6A0911A95 /* Pods-LLDPhoteBrowse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLDPhoteBrowse.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLDPhoteBrowse/Pods-LLDPhoteBrowse.release.xcconfig"; sourceTree = "<group>"; };
@@ -83,8 +83,6 @@
 			children = (
 				185649D11F9DEAB40013FF0D /* AppDelegate.h */,
 				185649D21F9DEAB40013FF0D /* AppDelegate.m */,
-				185649E91F9DEAF30013FF0D /* LLDCustomPercentDrivenInteractiveTransition.h */,
-				185649F11F9DEAF40013FF0D /* LLDCustomPercentDrivenInteractiveTransition.m */,
 				185649EA1F9DEAF30013FF0D /* LLDCustomTransitionAnimation.h */,
 				185649F01F9DEAF40013FF0D /* LLDCustomTransitionAnimation.m */,
 				185649EC1F9DEAF40013FF0D /* LLDPhotoBrowseData.h */,
@@ -93,6 +91,8 @@
 				185649EB1F9DEAF40013FF0D /* LLDPhotoBrowseViewCell.m */,
 				185649E71F9DEAF30013FF0D /* LLDPhotoBrowseViewController.h */,
 				185649F21F9DEAF40013FF0D /* LLDPhotoBrowseViewController.m */,
+				18FEDA4D1FA2C9A900ED7C90 /* LLDCollectionViewFlowLayout.h */,
+				18FEDA4E1FA2C9A900ED7C90 /* LLDCollectionViewFlowLayout.m */,
 				185649E81F9DEAF30013FF0D /* TableViewController.h */,
 				185649EF1F9DEAF40013FF0D /* TableViewController.m */,
 				185649F91F9DEB250013FF0D /* Main.storyboard */,
@@ -264,12 +264,12 @@
 			files = (
 				185649F81F9DEAF40013FF0D /* LLDPhotoBrowseViewController.m in Sources */,
 				185649E11F9DEAB40013FF0D /* main.m in Sources */,
-				185649F71F9DEAF40013FF0D /* LLDCustomPercentDrivenInteractiveTransition.m in Sources */,
 				185649F41F9DEAF40013FF0D /* LLDPhotoBrowseData.m in Sources */,
 				185649F31F9DEAF40013FF0D /* LLDPhotoBrowseViewCell.m in Sources */,
 				185649F61F9DEAF40013FF0D /* LLDCustomTransitionAnimation.m in Sources */,
 				185649F51F9DEAF40013FF0D /* TableViewController.m in Sources */,
 				185649D31F9DEAB40013FF0D /* AppDelegate.m in Sources */,
+				18FEDA4F1FA2C9A900ED7C90 /* LLDCollectionViewFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
